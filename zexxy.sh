@@ -58,7 +58,7 @@ if [ $pil = "1" ];then
     pip requests mechanize bs4
     pip2 install requests
     pip2 install mechanize bs4
-  echo "Credit Setup Termux Brezxy"
+  echo "Shell setup credit to: Brezxy"
 elif [ $pil = "2" ];then
   git clone https://github.com/Kenzo461/Zexxy5 &> /dev//null
   cd Zexxy5
