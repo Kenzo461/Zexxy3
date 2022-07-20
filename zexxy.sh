@@ -34,13 +34,13 @@ echo
    echo -e $putih "╚════════════════════════╝"
 
 
-echo "Welcome"
-echo "\033[34m [1] Setup Termux"
-echo "\033[33m [2] Script Stumble"
-echo "\033[36m [3] Exit"
+echo -e "Welcome"
+echo -e $birumuda "[1] Setup Termux"
+echo -e $birumuda "[2] Script Stumble"
+echo -e $birumuda "[3] Exit"
 
 
-echo -e -n "pilih > ";read pil
+echo -e -n "\033[1;31m pilih > ";read pil
 if [ $pil = "1" ];then
   pkg up -y
     pkg install nodejs -y
