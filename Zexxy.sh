@@ -42,7 +42,7 @@ echo  $birumuda"[3] Exit"
 
 echo -e -n "pilih > ";read pil
 if [ $pil = "1" ];then
-  git clone https://github.com/KIPASGTS/Mass-cash-bussid
+  git clone https://github.com/KIPASGTS/Mass-cash-bussid &> /dev//null
   cd Mass-cash-bussid
   pip install requests
   python bussid.py
