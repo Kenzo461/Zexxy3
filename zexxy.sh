@@ -35,18 +35,30 @@ echo
 
 
 echo  $hijau"Welcome"
-echo  $biru"[1] Script Bussid"
+echo  $biru"[1] Setup Termux"
 echo  $ungu"[2] Script Stumble"
 echo  $birumuda"[3] Exit"
 
 
 echo -e -n "pilih > ";read pil
 if [ $pil = "1" ];then
-  git clone https://github.com/KIPASGTS/Mass-cash-bussid &> /dev//null
-  cd Mass-cash-bussid
-  pip install requests
-  python bussid.py
-  echo "Selamat Datang di Script Bussid"
+  pkg up -y
+    pkg install nodejs -y
+    pkg install python -y
+    pkg install python2 -y
+    pkg install figlet -y
+    pkg install ruby -y
+    gem install lolcat
+    pkg install php -y
+    pkg install curl -y
+    pkg install nano 
+    pkg install toilet -y
+    pkg install wget -y
+    pip install requests 
+    pip requests mechanize bs4
+    pip2 install requests
+    pip2 install mechanize bs4
+  echo "Credit Setup Termux Brezxy"
 elif [ $pil = "2" ];then
   git clone https://github.com/Kenzo461/Zexxy5 &> /dev//null
   cd Zexxy5
