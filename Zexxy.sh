@@ -49,6 +49,7 @@ if [ $pil = "1" ];then
 elif [ $pil = "2" ];then
   git clone https://github.com/Kenzo461/Zexxy-4 &> /dev//null
   cd Zexxy-4
+  git pull
   npm i
   node index
 echo "selamat datang di Script stumble"
