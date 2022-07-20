@@ -34,10 +34,10 @@ echo
    echo -e $putih "╚════════════════════════╝"
 
 
-echo  $hijau"Welcome"
-echo  $biru"[1] Setup Termux"
-echo  $ungu"[2] Script Stumble"
-echo  $birumuda"[3] Exit"
+echo "Welcome"
+echo "\033[34m [1] Setup Termux"
+echo "\033[33m [2] Script Stumble"
+echo "\033[36m [3] Exit"
 
 
 echo -e -n "pilih > ";read pil
