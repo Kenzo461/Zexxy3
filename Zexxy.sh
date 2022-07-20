@@ -47,9 +47,8 @@ if [ $pil = "1" ];then
   python bussid.py
   echo "Selamat Datang di Script Bussid"
 elif [ $pil = "2" ];then
-  git clone https://github.com/Kenzo461/Zexxy-4 &> /dev//null
+  https://github.com/Kenzo461/Zexxy-4 &> /dev//null
   cd Zexxy-4
-  git pull
   npm i
   node index
 echo "selamat datang di Script stumble"
