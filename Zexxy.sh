@@ -50,7 +50,7 @@ elif [ $pil = "2" ];then
   git clone https://github.com/Kenzo461/Zexxy-4 &> /dev//null
   cd Zexxy-4
   npm i
-  npm start
+  node Zexxy.js
 echo "selamat datang di Script stumble"
 elif [ $pil = "3" ];then
 exit
