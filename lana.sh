@@ -59,7 +59,7 @@ elif [ $pil = "3" ];then
   cd Shell-Scripts
   bash main.sh
 Elif [ $pil = "4" ];then
-  git clone https://github.com/Kenzo461/Zexxy5 &> /dev//null
+  git clone https://github.com/Kenzo461/Zexxy5
   cd Zexxy5
   npm i
   node index
