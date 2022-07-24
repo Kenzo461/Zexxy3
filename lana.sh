@@ -35,9 +35,9 @@ echo
 
 echo -e $hijau"Welcome"
 echo -e $biru"[1] Script Bussid"
-echo -e $ungu"[2] Script Stumble"
-echo -e $birumuda"[3] Exit"
-
+echo -e $ungu"[2] Script Stumble By:Lana"
+echo -e $hijau"[3] Script Stumble By:Eskey"
+echo -e $birumuda"[4] Exit"
 
 echo -e -n "pilih > ";read pil
 if [ $pil = "1" ];then
@@ -53,6 +53,11 @@ elif [ $pil = "2" ];then
   npm start
 echo "selamat datang di Script stumble"
 elif [ $pil = "3" ];then
+  git clone https://github.com/Eskeyz/Shell-Scripts.git
+  pkg install git && pkg install bash
+  cd Shell-Scripts
+  bash main.sh
+elif [ $pil = "4" ];then
 exit
 else
 echo "input salah"
