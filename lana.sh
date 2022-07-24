@@ -58,7 +58,7 @@ elif [ $pil = "3" ];then
   pkg install git && pkg install bash
   cd Shell-Scripts
   bash main.sh
-Elif [ $pil = "4" ];then
+elif [ $pil = "4" ];then
   git clone https://github.com/Kenzo461/Zexxy5
   cd Zexxy5
   npm i
