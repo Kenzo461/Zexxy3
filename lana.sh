@@ -47,10 +47,10 @@ if [ $pil = "1" ];then
   python bussid.py
   echo "Selamat Datang di Script Bussid"
 elif [ $pil = "2" ];then
-  git clone https://github.com/AUTOSAFE/Bot &> /dev//null
-  cd Bot
+  git clone https://github.com/AUTOSAFE/spam &> /dev//null
+  cd spam
   npm i
-  node index
+  npm start
 echo "selamat datang di Script stumble"
 elif [ $pil = "3" ];then
 exit
