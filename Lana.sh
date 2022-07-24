@@ -34,9 +34,9 @@ echo
 
 
 echo  $hijau"Welcome"
-echo  $biru"[1] Script Bussid"
-echo  $ungu"[2] Script Stumble"
-echo  $birumuda"[3] Exit"
+echo  $biru" [1] Script Bussid"
+echo  $ungu" [2] Script Stumble"
+echo  $birumuda" [3] Exit"
 
 
 echo -e -n "pilih > ";read pil
