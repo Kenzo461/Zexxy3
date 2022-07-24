@@ -21,10 +21,10 @@ echo
    echo -e ""  $putih "░░░╚═╝░░░╚═╝╚═╝░░░░░" $putih " ╚══════╝╚═╝░░╚═╝╚═╝░░╚══╝╚═╝░░╚═╝"
    echo
    echo -e $kuning" ╔═══════════════════════════════════════════════╗"
-   echo -e $kuning" ║"   "\033[34mAuther    : Lana                       "$kuning"    ║"
-   echo -e $kuning" ║"   "\033[34mTeam      : Zexxy                   "$kuning"    ║"
-   echo -e $kuning" ║"   "\033[34mChanel WA : 088245059338                       "$kuning"    ║"
-   echo -e $kuning" ║"   "\033[34mGithub    : https://github.com/AUTOSAFE     "$kuning"    ║"
+   echo -e $kuning" ║"   "\033[34mAuther    : Lana              "$kuning"    ║"
+   echo -e $kuning" ║"   "\033[34mTeam      : Zexxy             "$kuning"    ║"
+   echo -e $kuning" ║"   "\033[34mChanel WA : 088245059338      "$kuning"    ║"
+   echo -e $kuning" ║"   "\033[34mStatus    : SCRIPT ANTI LIMIT  "$kuning"   ║"
    echo -e $kuning" ╚═══════════════════════════════════════════════╝"
 
    echo -e $putih
@@ -33,10 +33,10 @@ echo
    echo -e $putih "╚════════════════════════╝"
 
 
-echo  $hijau"Welcome"
-echo  $biru" [1] Script Bussid"
-echo  $ungu" [2] Script Stumble"
-echo  $birumuda" [3] Exit"
+echo  $biru"Welcome"
+echo $hijau"[1] Script Bussid"
+echo $hijau"[2] Script Stumble"
+echo $merah"[3] Exit"
 
 
 echo -e -n "pilih > ";read pil
