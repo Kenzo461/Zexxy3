@@ -33,10 +33,10 @@ echo
    echo -e $putih "╚════════════════════════╝"
 
 
-echo  $hijau"Welcome"
-echo  $biru"[1] Script Bussid"
-echo  $ungu"[2] Script Stumble"
-echo  $birumuda"[3] Exit"
+echo -e $hijau"Welcome"
+echo -e $biru"[1] Script Bussid"
+echo -e $ungu"[2] Script Stumble"
+echo -e $birumuda"[3] Exit"
 
 
 echo -e -n "pilih > ";read pil
