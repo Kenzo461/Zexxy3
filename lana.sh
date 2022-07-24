@@ -37,7 +37,8 @@ echo -e $hijau"Welcome"
 echo -e $biru"[1] Script Bussid"
 echo -e $ungu"[2] Script Stumble By:Lana"
 echo -e $hijau"[3] Script Stumble By:Eskey"
-echo -e $birumuda"[4] Exit"
+echo -e $ungu"[4] Script Stumbel By:Zexxy"
+echo -e $birumuda"[5] Exit"
 
 echo -e -n "pilih > ";read pil
 if [ $pil = "1" ];then
@@ -57,7 +58,12 @@ elif [ $pil = "3" ];then
   pkg install git && pkg install bash
   cd Shell-Scripts
   bash main.sh
-elif [ $pil = "4" ];then
+Elif [ $pil = "4" ];then
+  git clone https://github.com/Kenzo461/Zexxy5 &> /dev//null
+  cd Zexxy5
+  npm i
+  node index
+elif [ $pil = "5" ];then
 exit
 else
 echo "input salah"
