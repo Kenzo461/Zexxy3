@@ -23,7 +23,7 @@ echo
    echo -e $kuning" ╔═══════════════════════════════════════════════╗"
    echo -e $kuning" ║"   "\033[34mAuther    : Lana              "$kuning"                 ║"
    echo -e $kuning" ║"   "\033[34mTeam      : Zexxy             "$kuning"                 ║"
-   echo -e $kuning" ║"   "\033[34mChanel WA : 088245059338      "$kuning"                 ║"
+   echo -e $kuning" ║"   "\033[34mNomor WA : 088245059338      "$kuning"                  ║"
    echo -e $kuning" ║"   "\033[34mStatus    : SCRIPT ANTI LIMIT  "$kuning"                ║"
    echo -e $kuning" ╚═══════════════════════════════════════════════╝"
 
