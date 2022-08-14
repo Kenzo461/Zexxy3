@@ -22,10 +22,10 @@ echo
  
    echo
    echo -e $kuning" ╔═══════════════════════════════════════════════╗"
-   echo -e $kuning" ║"   "\033[34mAuther    : Lana                       "$kuning"    ║"
-   echo -e $kuning" ║"   "\033[34mTeam      : Zexxy                   "$kuning"    ║"
-   echo -e $kuning" ║"   "\033[32mWA : 088245059338                       "$hijau"    ║"
-   echo -e $kuning" ║"   "\033[34mGithub    : https://github.com/AUTOSAFE     "$kuning"    ║"
+   echo -e $kuning" ║"   "\033[34mAuther    : Lana                          "$kuning"    ║"
+   echo -e $kuning" ║"   "\033[34mTeam      : Zexxy                         "$kuning"    ║"
+   echo -e $kuning" ║"   "\033[32mWA : 088245059338                         "$hijau"    ║"
+   echo -e $kuning" ║"   "\033[34mGithub    : https://github.com/AUTOSAFE   "$kuning"    ║"
    echo -e $kuning" ╚═══════════════════════════════════════════════╝"
 
    echo -e $putih
@@ -34,13 +34,13 @@ echo
    echo -e $putih "╚════════════════════════╝"
 
 
-echo -e  $hijau"Welcome"
+echo -e  $hijau"Welcome Silahkan Pilih"
 echo -e  $biru"[1] Script Bussid"
-echo -e  $ungu"[2] Script spam"
-echo -e  $biru"[3] Script bil"
-echo -e  $hijau"[4] script eskey"
-echo -e  $merah"[5] script nyasar"
-echo -e  $biru"[6] script node Lana"
+echo -e  $ungu"[2] Script Stumble By:Lana"
+echo -e  $biru"[3] Script stumble By:Lana"
+echo -e  $hijau"[4] script Stumble By:Eskey"
+echo -e  $merah"[5] script Stumble By:DKimposter"
+echo -e  $biru"[6] script Stumble By:Lana"
 echo -e  $birumuda"[7] Exit"
 
 
