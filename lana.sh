@@ -98,6 +98,7 @@ elif [ $pil = "8" ];then
   LDFLAGS=-L/system/lib64 pip install pillow
   cd /sdcard/view-bot-main
   termux-setup-storage
+  cd 
   python bot.py
 echo "Selamat datang Di Script Bot view"
 elif [ $pil = "9" ];then
