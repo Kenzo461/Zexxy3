@@ -89,6 +89,7 @@ elif [ $pil = "7" ];then
   git clone https://github.com/K4HFZ/Spams
   cd Spams
   pip install requests
+  pip install colorama
   python Khfz.py
 echo "selamat datang di Script Kematian"
 elif [ $pil = "8" ];then
