@@ -33,6 +33,7 @@ echo
    echo -e " ║ " "\033[1;31m Script BY lana" $putih "     ║"
    echo -e $putih "╚════════════════════════╝"
 
+echo -e  $putih"EROR SCRIPT NOMOR 8"
 
 echo -e  $hijau"Welcome Silahkan Pilih"
 echo -e  $biru"[1] Script Bussid"
@@ -44,12 +45,6 @@ echo -e  $biru"[6] script Stumble By:Lana"
 echo -e  $ungu"[7] Script Spam Sms By:Khfz"
 echo -e  $hijau"[8] Script View By:Lana"
 echo -e  $birumuda"[9] Exit"
-const asciiText = figlet.textSync("SCRIPT NOMBER 8 ERROR", {
-    font: 'Graffiti',
-    horizontalLayout: 'default',
-    verticalLayout: 'default',
-    width: 30,
-    whitespaceBreak: true
 
 
 echo -e -n "pilih > ";read pil
