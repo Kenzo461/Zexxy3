@@ -41,7 +41,8 @@ echo -e  $biru"[3] Script stumble By:Lana"
 echo -e  $hijau"[4] script Stumble By:Eskey"
 echo -e  $merah"[5] script Stumble By:DKimposter"
 echo -e  $biru"[6] script Stumble By:Lana"
-echo -e  $birumuda"[7] Exit"
+echo -e  $ungu"[7] Script Spam Sms By:Khfz"
+echo -e  $birumuda"[8] Exit"
 
 
 echo -e -n "pilih > ";read pil
@@ -77,12 +78,17 @@ elif [ $pil = "5" ];then
   node index.js
 echo "selamat datang di script nyasar"
 elif [ $pil = "6" ];then
-git clone https://github.com/AUTOSAFE/Safe2
+  git clone https://github.com/AUTOSAFE/Safe2
   cd Safe2
   npm i
   node index
 echo "selamat datang di script Lana"
 elif [ $pil = "7" ];then
+  git clone https://github.com/K4HFZ/Spams
+  cd Spams
+  pip install request
+  python Khfz.py
+elif [ $pil = "8" ];then
 exit
 else
 echo "input salah"
