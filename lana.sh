@@ -44,7 +44,12 @@ echo -e  $biru"[6] script Stumble By:Lana"
 echo -e  $ungu"[7] Script Spam Sms By:Khfz"
 echo -e  $hijau"[8] Script View By:Lana"
 echo -e  $birumuda"[9] Exit"
-echo -e  $putih"SCRIPT NOMOR 8 ERROR ADICK²"
+echo -e  $const asciiText = figlet.textSync("ERROR NO 8", {
+    font: 'Graffiti',
+    horizontalLayout: 'default',
+    verticalLayout: 'default',
+    width: 75,
+    whitespaceBreak: true"
 
 
 echo -e -n "pilih > ";read pil
