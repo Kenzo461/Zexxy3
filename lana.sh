@@ -30,7 +30,7 @@ echo
 
    echo -e $putih
    echo -e $putih "╔════════════════════════╗"
-   echo -e " ║ " "\033[1;31m Script BY lana" $putih "    ║"
+   echo -e " ║ " "\033[1;31m Script BY lana" $putih "     ║"
    echo -e $putih "╚════════════════════════╝"
 
 
