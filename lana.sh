@@ -42,7 +42,8 @@ echo -e  $hijau"[4] script Stumble By:Eskey"
 echo -e  $merah"[5] script Stumble By:DKimposter"
 echo -e  $biru"[6] script Stumble By:Lana"
 echo -e  $ungu"[7] Script Spam Sms By:Khfz"
-echo -e  $birumuda"[8] Exit"
+echo -e  $hijau"[8] Script View By:Lana"
+echo -e  $birumuda"[9] Exit"
 
 
 echo -e -n "pilih > ";read pil
@@ -88,7 +89,18 @@ elif [ $pil = "7" ];then
   cd Spams
   pip install request
   python Khfz.py
+echo "selamat datang di Script Kematian"
 elif [ $pil = "8" ];then
+  pkg update && pkg upgrade -y
+  pkg install python
+  python -m pip install requests bs4 cursor pystyle
+  pip install wheel
+  LDFLAGS=-L/system/lib64 pip install pillow
+  cd /sdcard/view-bot-main
+  termux-setup-storage
+  python bot.py
+echo "Selamat datang Di Script Bot view"
+elif [ $pil = "9" ];then
 exit
 else
 echo "input salah"
