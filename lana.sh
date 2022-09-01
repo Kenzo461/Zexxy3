@@ -33,17 +33,17 @@ echo
    echo -e " ║ " "\033[1;31m Script BY lana" $putih "     ║"
    echo -e $putih "╚════════════════════════╝"
 
-echo -e  $putih"EROR SCRIPT NOMOR 8"
+echo -e  $putih"Selamat Datang Perkumpulan script"
 
 echo -e  $hijau"Welcome Silahkan Pilih"
 echo -e  $biru"[1] Script Bussid"
-echo -e  $ungu"[2] Script Stumble By:Lana"
-echo -e  $biru"[3] Script stumble By:Lana"
-echo -e  $hijau"[4] script Stumble By:Eskey"
-echo -e  $merah"[5] script Stumble By:DKimposter"
-echo -e  $biru"[6] script Stumble By:Lana"
+echo -e  $ungu"[2] Script Stumble Crown By:Lana"
+echo -e  $biru"[3] Script stumble Crown and Crown By:Lana"
+echo -e  $hijau"[4] script Stumble Trophy and Crown By:Eskey"
+echo -e  $merah"[5] script Stumble Crown By:DKimposter"
+echo -e  $biru"[6] script Stumble Crown and Trophy By:Lana"
 echo -e  $ungu"[7] Script Spam Sms By:Khfz"
-echo -e  $hijau"[8] Script View By:Lana"
+echo -e  $hijau"[8] Script Stumble Fast Crown By:Lana"
 echo -e  $birumuda"[9] Exit"
 
 
@@ -93,16 +93,13 @@ elif [ $pil = "7" ];then
   python Khfz.py
 echo "selamat datang di Script Kematian"
 elif [ $pil = "8" ];then
-  pkg update && pkg upgrade -y
-  pkg install python
-  python -m pip install requests bs4 cursor pystyle
-  pip install wheel
-  LDFLAGS=-L/system/lib64 pip install pillow
-  cd /sdcard/view-bot-main
-  termux-setup-storage
-  cd 
-  python bot.py
-echo "Selamat datang Di Script Bot view"
+  apt update && apt upgrade -y
+  pkg install git
+  git clone https://github.com/AUTOSAFE/hi
+  pkg install php
+  cd hi
+  php main.php
+echo "Selamat datang Di Script STUMBLE CROWN"
 elif [ $pil = "9" ];then
 exit
 else
