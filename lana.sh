@@ -36,7 +36,9 @@ echo
 echo -e  $putih"Selamat Datang Perkumpulan script"
 
 echo -e  $hijau"Welcome Silahkan Pilih"
-echo -e  $biru"[1] Script Bussid"
+echo -e  $merah╔════════════════╗"
+echo -e  $biru"║[1] Script Bussid" "merah" ║"
+echo -e  $merah╚════════════════╝"
 echo -e  $ungu"[2] Script Stumble Crown By:Lana"
 echo -e  $biru"[3] Script stumble Crown and Crown By:Lana"
 echo -e  $hijau"[4] script Stumble Trophy and Crown By:Eskey"
