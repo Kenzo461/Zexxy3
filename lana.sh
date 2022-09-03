@@ -35,18 +35,18 @@ echo
 
 echo -e  $putih"Selamat Datang Perkumpulan script"
 
-echo -e $putih "╔════════════════════════════════════════╗"
-echo -e  $hijau"Welcome Silahkan Pilih"
-echo -e  $ungu"[1] Script BUSSID By:Lana"
-echo -e  $ungu"[2] Script Stumble Crown By:Lana"
-echo -e  $biru"[3] Script stumble Crown and Crown By:Lana"
-echo -e  $hijau"[4] script Stumble Trophy and Crown By:Eskey"
-echo -e  $merah"[5] script Stumble Crown By:DKimposter"
-echo -e  $biru"[6] script Stumble Crown and Trophy By:Lana"
-echo -e  $ungu"[7] Script Spam Sms By:Khfz"
-echo -e  $hijau"[8] Script Stumble Fast Crown By:Lana"
-echo -e  $birumuda"[9] Exit"
-
+echo -e $merah "╔══════════════════════════════════════════╗"
+echo -e  $hijau"Welcome Silahkan Pilih"                           "$merah"    ║"
+echo -e  $ungu"[1] Script BUSSID By:Lana"                         "$merah"    ║"
+echo -e  $ungu"[2] Script Stumble Crown By:Lana"                  "$merah"    ║"
+echo -e  $biru"[3] Script stumble Crown and Crown By:Lana"        "$merah"    ║"
+echo -e  $hijau"[4] script Stumble Trophy and Crown By:Eskey"     "$merah"    ║"
+echo -e  $merah"[5] script Stumble Crown By:DKimposter"           "$merah"    ║"
+echo -e  $biru"[6] script Stumble Crown and Trophy By:Lana"       "$merah"    ║"
+echo -e  $ungu"[7] Script Spam Sms By:Khfz"                       "$merah"    ║"
+echo -e  $hijau"[8] Script Stumble Fast Crown By:Lana"            "$merah"    ║"
+echo -e  $birumuda"[9] Exit"                                      "$merah"    ║"
+echo -e $merah "╚══════════════════════════════════════════╝"
 
 echo -e -n "pilih > ";read pil
 if [ $pil = "1" ];then
