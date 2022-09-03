@@ -35,10 +35,9 @@ echo
 
 echo -e  $putih"Selamat Datang Perkumpulan script"
 
+echo -e $putih "╔════════════════════════════════════════╗"
 echo -e  $hijau"Welcome Silahkan Pilih"
-   echo -e $putih "╔════════════════════════╗"
-   echo -e " ║ " "\033[1;31m"[1] Stumble" $putih "     ║"
-   echo -e $putih "╚════════════════════════╝"
+echo -e  $ungu"[1] Script BUSSID By:Lana"
 echo -e  $ungu"[2] Script Stumble Crown By:Lana"
 echo -e  $biru"[3] Script stumble Crown and Crown By:Lana"
 echo -e  $hijau"[4] script Stumble Trophy and Crown By:Eskey"
