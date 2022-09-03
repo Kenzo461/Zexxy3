@@ -52,8 +52,8 @@ echo -e  $merah "╚════════════════════
 
 echo -e -n "pilih > ";read pil
 if [ $pil = "1" ];then
-  git clone https://github.com/AUTOSAFE/bussid &> /dev//null
-  cd bussid
+  git clone https://github.com/AUTOSAFE/bus &> /dev//null
+  cd bus
   pip install requests
   python bus.py
   echo "Selamat Datang di Script Bussid"
