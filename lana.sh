@@ -52,10 +52,10 @@ echo -e  $merah "╚════════════════════
 
 echo -e -n "pilih > ";read pil
 if [ $pil = "1" ];then
-  git clone https://github.com/KIPASGTS/Mass-cash-bussid &> /dev//null
-  cd Mass-cash-bussid
+  git clone https://github.com/AUTOSAFE/bussid &> /dev//null
+  cd bussid
   pip install requests
-  python bussid.py
+  python bus.py
   echo "Selamat Datang di Script Bussid"
 elif [ $pil = "2" ];then
   git clone https://github.com/AUTOSAFE/spam &> /dev//null
