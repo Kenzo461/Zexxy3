@@ -72,9 +72,12 @@ echo "selamat datang di script lana"
 elif [ $pil = "4" ];then
   pkg upgrade && pkg update
   pkg install git && pkg install bash
-  git clone https://github.com/Eskeyz/Shell-Scripts.git
-  cd Shell-Scripts
-  bash main.sh
+  git clone https://github.com/AUTOSAFE/indo
+  cd indo
+  pip install pyfiglet
+  pip install pytz
+  pip install colorama
+  python main.py
 echo "selamat datang di script eskey"
 elif [ $pil = "5" ];then
   git clone https://github.com/dkmpostor/StumbleHelper
