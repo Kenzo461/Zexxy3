@@ -43,7 +43,7 @@ echo -e  $ungu"[2] Stumble Crown By:spam"
 echo -e  $biru"[3] stumble Crown and Crown By:bil"
 echo -e  $hijau"[4] Stumble Crown By : indo"
 echo -e  $merah"[5] Stumble Crown By:StumbleHelper"
-echo -e  $biru"[6] Stumble Crown and Trophy By:Safe2"
+echo -e  $biru"[6] Stumble Crown and Trophy By:Lana.py"
 echo -e  $ungu"[7] Spam Sms By:spams"
 echo -e  $hijau"[8] Stumble Fast Crown By:hi"
 echo -e  $birumuda"[9] Exit"
@@ -86,10 +86,14 @@ elif [ $pil = "5" ];then
   node index.js
 echo "selamat datang di script nyasar"
 elif [ $pil = "6" ];then
-  git clone https://github.com/AUTOSAFE/Safe2
-  cd Safe2
-  npm i
-  node index
+  pkg upgrade && pkg update
+  pkg install git && pkg install bash
+  git clone https://github.com/AUTOSAFE/Lana.py
+  cd Lana.py
+  pip install pyfiglet
+  pip install pytz
+  pip install colorama
+  python Lana.py
 echo "selamat datang di script Lana"
 elif [ $pil = "7" ];then
   git clone https://github.com/K4HFZ/Spams
