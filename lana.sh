@@ -86,14 +86,12 @@ elif [ $pil = "5" ];then
   node index.js
 echo "selamat datang di script nyasar"
 elif [ $pil = "6" ];then
-  pkg upgrade && pkg update
-  pkg install git && pkg install bash
   git clone https://github.com/AUTOSAFE/Lana.py
   cd Lana.py
   pip install pyfiglet
   pip install pytz
   pip install colorama
-  python Lana.py
+  python lana.py
 echo "selamat datang di script Lana"
 elif [ $pil = "7" ];then
   git clone https://github.com/K4HFZ/Spams
