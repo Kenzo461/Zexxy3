@@ -37,16 +37,17 @@ echo -e  $putih"Selamat Datang Perkumpulan script"
 
 echo -e  $merah "╔══════════════════════════════════════════╗"
 
-echo -e  $hijau"Welcome Silahkan Pilih"
-echo -e  $ungu"[1] BUSSID By:Lana"
-echo -e  $ungu"[2] Stumble Crown By:spam"
-echo -e  $biru"[3] stumble Crown and Crown By:bil"
+echo -e  $ungu"Welcome Silahkan Pilih"
+echo -e  $hijau"[1] BUSSID By:Lana"
+echo -e  $hijau"[2] Stumble Crown By:spam"
+echo -e  $hijau"[3] stumble Crown and Crown By:bil"
 echo -e  $hijau"[4] Stumble Crown By : indo"
-echo -e  $merah"[5] Stumble Crown By:StumbleHelper"
-echo -e  $biru"[6] Stumble Crown and Trophy By:Lana.py"
-echo -e  $ungu"[7] Spam Sms By:spams"
+echo -e  $hijau"[5] Stumble Crown By:StumbleHelper"
+echo -e  $hijau"[6] Stumble Crown and Trophy By:Lana.py"
+echo -e  $hijau"[7] Spam Sms By:spams"
 echo -e  $hijau"[8] Stumble Fast Crown By:hi"
-echo -e  $birumuda"[9] Exit"
+echo -e  $hijau"[9] Tiktok ViewBot"
+echo -e  $birumuda"[10] Exit"
 
 echo -e  $merah "╚══════════════════════════════════════════╝"
 
@@ -109,6 +110,12 @@ elif [ $pil = "8" ];then
   php main.php
 echo "Selamat datang Di Script STUMBLE CROWN"
 elif [ $pil = "9" ];then
+  apt update && apt upgrade -y
+  pkg install python3 && pkg install git
+  git clone https://github.com/AUTOSAFE/Tiktok2
+  cd Tiktok2
+  python3 run.py
+elif [ $pil = "10" ];then
 exit
 else
 echo "input salah"
