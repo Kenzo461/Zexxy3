@@ -47,7 +47,8 @@ echo -e  $hijau"[6] Game Mati"
 echo -e  $hijau"[7] Spam SmS"
 echo -e  $hijau"[8] Game Mati"
 echo -e  $hijau"[9] Tiktok ViewBot"
-echo -e  $birumuda"[10] Exit"
+echo -e  $hijau"[10] Bot WhatsApp"
+echo -e  $birumuda"[11] Exit"
 
 echo -e  $merah "╚══════════════════════════════════════════╝"
 
@@ -116,6 +117,16 @@ elif [ $pil = "9" ];then
   cd Tiktok2
   python3 run.py
 elif [ $pil = "10" ];then
+termux-setup-storage
+apt update && apt upgrade
+  pkg install nodejs git ffmpeg libwebp imagemagick
+  git clone https://github.com/Kenzo461/anjas
+  cd anjas
+  pkg install yarn
+  yarn
+  npm install
+  npm start
+elif [ $pil = "11" ];then
 exit
 else
 echo "input salah"
